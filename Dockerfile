@@ -16,6 +16,7 @@ RUN apt-get update -y \
     texlive-bibtex-extra \
     texlive-fonts-recommended \
     fontconfig \
+    transfig \
   && rm -rf /var/lib/apt/lists/*
 
 RUN wget --no-check-certificate https://github.com/jgm/pandoc/releases/download/1.17.0.2/pandoc-1.17.0.2-1-amd64.deb && \
